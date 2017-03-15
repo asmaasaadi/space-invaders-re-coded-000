@@ -1,3 +1,4 @@
+
 global.expect = require('expect')
 
 const fs = require('fs')
@@ -18,4 +19,4 @@ const babelCrewMember = babel.transformFileSync(
 
 jsdom({
   src: babelSpaceship.code + babelCrewMember.code
-})
+})  
